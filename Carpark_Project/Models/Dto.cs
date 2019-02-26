@@ -7,5 +7,6 @@ namespace Carpark_Project.Models
 {
     public class Dto
     {
+        public int Id { get; set; }
     }
 }
