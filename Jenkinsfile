@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     sh 'make check'
+                     
                      echo 'Hi, this is Zulaikha from edureka -----------------------------------------------------------------------'
                  }
                  }
