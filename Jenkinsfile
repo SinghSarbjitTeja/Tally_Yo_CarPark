@@ -3,7 +3,8 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Zulaikha from edureka'
+                     newman --version
+                     echo 'Hi, this is Zulaikha from edureka -----------------------------------------------------------------------'
                  }
                  }
                  stage('Two') {
