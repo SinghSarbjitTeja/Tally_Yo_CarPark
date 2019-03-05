@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     newman --version
+                     sh 'make check'
                      echo 'Hi, this is Zulaikha from edureka -----------------------------------------------------------------------'
                  }
                  }
